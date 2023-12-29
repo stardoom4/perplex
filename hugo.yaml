@@ -5,7 +5,7 @@
 ## Theme parameters
 params:
   # Default site description
-  description: Perplex theme for Hugo
+  description: Digital Garden.
 
   # All parameters may be set per page in the front-matter
   subtitle: false
