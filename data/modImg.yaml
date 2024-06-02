@@ -33,22 +33,26 @@ frame:
   background:
     name: "Background"
     prefix: bg-
-    options: [dark, light, white, transparent]
+    options: [dark, light, white, none]
   box:
     name: "Box"
     prefix: box-
-    options: [ shadow, light, none ]
+    options: [ shadow, none ]
   padding:
     name: "Padding"
     prefix: pad-
-    options: [ half, one, two, none ]
+    options: [ half, one, two, three, none ]
 
 container:
   base: "img__c"
   type:
     name: Type
     prefix: t-
-    options: [ logo ]
+    options: [ symbol, image ]
+  color:
+    name: Color
+    prefix: c-
+    options: [red]
 
 width:
   pt1: [30,30]
@@ -87,4 +91,5 @@ base64:
   quality: 65
 
 svg:
+  defaultType: symbol
   inlineMax: 4096
